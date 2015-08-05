@@ -47,10 +47,11 @@ If your main computer (not the Olimex A20) is running a debian, you just need to
 
 ### Compile and install u-boot with LCD-OLinuXino-4.3TS support
 
-Get the u-boot sources:
+Get the u-boot sources, and checkout the v2015.04 commit:
 
 		git clone http://git.denx.de/u-boot.git/
 		cd u-boot
+		git checkout -b 2015.04 f33cdaa4c3da4a8fd35aa2f9a3172f31cc887b35
 
 Get the configuration for LCD-OLinuXino-4.3TS support:
 
