@@ -68,8 +68,7 @@ Install the new u-boot image on the micro-SD card (replace sdX by the good devic
 
 ## Useful links
 
-The [official Debian documentation](https://wiki.debian.org/InstallingDebianOn/Allwinner#u-boot-ahci-support).
-
-[A project](http://karme.de/prisirah/) of open-source hardware and free software digital photo frames, using Olimex devices.
-
-The official [Olimex script](https://github.com/OLIMEX/OLINUXINO/blob/master/SOFTWARE/A20/A20-build/change_display_olimex_A20.sh) to add a display, with interesting values (resolution, refresh frequency...).
+The [official Debian documentation](https://wiki.debian.org/InstallingDebianOn/Allwinner#u-boot-ahci-support).  
+[A project](http://karme.de/prisirah/) of open-source hardware and free software digital photo frames, using Olimex devices.  
+The official [Olimex script](https://github.com/OLIMEX/OLINUXINO/blob/master/SOFTWARE/A20/A20-build/change_display_olimex_A20.sh) to add a display, with interesting values (resolution, refresh frequency...).  
+Linux-sunxi [wiki article](http://linux-sunxi.org/LCD) about LCD screens.
