@@ -26,7 +26,7 @@ Get the u-boot sources, and checkout the v2015.04 commit:
 
 Get the configuration for LCD-OLinuXino-4.3TS support:
 
-		wget https://raw.githubusercontent.com/st3rk/Olimex_A20/master/A20-OLinuXino_MICRO-lcd4_defconfig -O configs/A20-OLinuXino_MICRO-lcd4_defconfig
+		wget https://raw.githubusercontent.com/st3rk/Olimex_A20/master/LCD-OLinuXino-4.3TS%20screen%20support/A20-OLinuXino_MICRO-lcd4_defconfig -O configs/A20-OLinuXino_MICRO-lcd4_defconfig
 
 Configure and compile uboot:
 
