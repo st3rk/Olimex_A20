@@ -20,3 +20,10 @@ Then, as root, write it on a micro-SD card
 ## Install debian on the Olimex A20 Micro
 
 Just insert the micro-SD card, plug an ethernet cable to the A20 Micro, and proceed to the installation. You will not be lost: it's a standard netinstall image.
+
+## Enable I2C
+
+The module i2c-dev must be loaded:
+
+    modprobe i2c-dev
+		echo 'i2c-dev' >> /etc/modules
